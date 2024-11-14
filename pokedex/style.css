@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+body{
+    background-color: green;
+    background-image: url(./img/floresta.png);
+    background-size: cover;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 475px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    position: relative;
+}
+
+#imgPokedex{
+    width: 100%;
+    max-width: 475px;
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+}
+
+#imgPokemon{
+    position: absolute;
+    top:40%;
+    left: 30%
+}
+
+.form-busca{
+    position: absolute;
+    top:55%;
+    left:20%;
+    width: 50%;
+}
+
+#inputText{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: -3px 4px 0 gray;
+}
+
+.pokemon-data1{
+    position: absolute;
+    top: 63%;
+    left:20%;
+}
+
+.pokemon-data2{
+    position: absolute;
+    top:70%;
+    left: 20%;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    display: flex;
+    gap: 15%;
+    width: 100%;
+}
+
+.buttons button{
+    width: 20%;
+    border-radius: 6px;
+    box-shadow: -3px 4px 0 gray;
+}

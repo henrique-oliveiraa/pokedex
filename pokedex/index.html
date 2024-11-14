@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <figure>
+                <img id="imgPokedex" src="img/pokedex.png" alt="imagem da pokedex">
+            </figure>
+            <figure>
+                <img id="imgPokemon" src="#" alt="imagem do pokemon">
+            </figure>
+            <form class="form-busca">
+                <input id="inputText" value="" type="text" placeholder="Digite o nome ou número">
+            </form>
+            <h1 class="pokemon-data1">
+                <span id="numeroPokemon" >ID</span>
+                <span id="nomePokemon">NomePokémon</span>
+            </h1>
+            <h1 class="pokemon-data2">
+                <div id="typePokemon">Tipo:</div>
+                <div>Peso:</div>
+                <div>Altura:</div>
+            </h1>
+            <div class="buttons">
+                <button id="btnAnterior">Anterior</button>
+                <button id="btnProximo" onclick="document.getElementById('somProximo').play()">Próximo</button>
+            </div>
+
+            <audio id="somProximo">
+                <source src="som/pickachu.mp3" type="audio/mpeg">    
+            </audio>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
